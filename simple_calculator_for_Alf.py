@@ -7,14 +7,13 @@ print("\n")
 # - Code for asking the user's input
 ask_user_the_first_num = float(input("Enter your first desired number:"))
 ask_user_the_second_num = float(input("Enter your second desired number:"))
-print("What operation you want to user?")
+print("What operation you want to use?")
 print("1. Addition (+)")
 print("2. Subtraction (-)")
 print("3. Multiplication (x)")
 print("4. Division (/)")
 ask_user_the_operation_desire = input("Enter the operation (1,2,3,4):")
 
-print("\n")
 # - Code for performing the calculation based on user's inputted values 
 def calculation(value):
     if value == "1":
