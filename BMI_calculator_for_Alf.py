@@ -8,26 +8,39 @@
 # ABOVE 30.0          OBESITY
 
 # - Asking the user's weight and height
+print("USER'S INFORMATION")
 ask_user_weight = float(input("Enter your weight:"))
 ask_user_height = float(input("Enter your height:"))
 
-print("\n")
 # - Calculations of user's BMI and categorize its status
 def bmi_calculation(weight, height):
     return (weight / (height*height))
-
 bmi_result = bmi_calculation(ask_user_weight, ask_user_height)
-print(bmi_result)
 
-print("\n")
 # - Displaying the user's BMI and its classification
-# print("Weight", ask_user_weight, "Height", ask_user_height, end = " ")
-# print("BMI", )
+def bmi_classification(value):
+    if value < 18.5:
+        return "Underweight"
+    else:
+        if 18.5 <= value <= 24.9:
+            return "Normal Weight"
+        else: 
+            if 25 <= value <= 29.9:
+                return "Overweight"
+            else: 
+                if value > 30.0:
+                    return "Obesity"
+                else:
+                    return "Error"
+
+bmi_classification_result = bmi_classification(bmi_result)
+print("\n")
+print("SUMMARY OF USER'S BMI")
+print("Weight:", ask_user_weight, ";", "Height:", ask_user_height)
+print("BMI result:", bmi_result)
+print("BMI Classification:", bmi_classification_result)
 
 
 
 # Be cautious when reading input of various data types.
 # Select and employ a string concatenation method based on your personal preference and comfort level.
-
-
-# Use :.2f format specifier when printing the BMI value to display the BMI with only two decimal places.
