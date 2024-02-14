@@ -44,7 +44,3 @@ print("Weight:", ask_user_weight, ";", "Height:", ask_user_height)
 print("BMI result:", bmi_result)
 print("BMI Classification:", bmi_classification_result)
 
-
-
-# Be cautious when reading input of various data types.
-# Select and employ a string concatenation method based on your personal preference and comfort level.
