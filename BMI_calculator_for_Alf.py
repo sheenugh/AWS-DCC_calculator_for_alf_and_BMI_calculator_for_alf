@@ -8,9 +8,21 @@
 # ABOVE 30.0          OBESITY
 
 # - Asking the user's weight and height
-# - Calculations of user's BMI and categorize its status
-# - Displaying the user's BMI and its classification
+ask_user_weight = float(input("Enter your weight:"))
+ask_user_height = float(input("Enter your height:"))
 
+print("\n")
+# - Calculations of user's BMI and categorize its status
+def bmi_calculation(weight, height):
+    return (weight / (height*height))
+
+bmi_result = bmi_calculation(ask_user_weight, ask_user_height)
+print(bmi_result)
+
+print("\n")
+# - Displaying the user's BMI and its classification
+# print("Weight", ask_user_weight, "Height", ask_user_height, end = " ")
+# print("BMI", )
 
 
 
