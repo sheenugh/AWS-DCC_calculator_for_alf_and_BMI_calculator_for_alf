@@ -3,6 +3,6 @@
 #
 # Credits/Source: https://github.com/AWSCC-PUPMNL-Cloud-Computing/15-Days-of-Python.git
 #
-# This consist of programs: 
+# This repository consists of two programs: 
 # Program 1: Simple Calculator for Alf
 # Program 2: BMI Calculator fof Alf
