@@ -1,5 +1,5 @@
-# DCC_calculator_for_Alf_and_BMI_calculator
-This repository is for DCC Day 2 PythonQuest. 
+# AWS-DCC_calculator_for_alf_and_BMI_calculator_for_alf
+# This repository is for DCC Day 2 PythonQuest. 
 #
 # Credits/Source: https://github.com/AWSCC-PUPMNL-Cloud-Computing/15-Days-of-Python.git
 #
