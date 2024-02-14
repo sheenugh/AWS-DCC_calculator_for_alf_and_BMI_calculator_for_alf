@@ -7,6 +7,10 @@
 # 25.0 - 29.9        OVERWEIGHT
 # ABOVE 30.0          OBESITY
 
+# - Printing 'BMI CALCULATOR FOR ALF"
+print("BMI CALCULATOR FOR ALF")
+print("\n")
+
 # - Asking the user's weight and height
 print("USER'S INFORMATION")
 ask_user_weight = float(input("Enter your weight:"))
